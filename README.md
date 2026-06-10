@@ -15,10 +15,13 @@ This project analyzes transactional data from **January 2023 to January 2025** t
 
 ---
 ## Tools Used
-Microsoft Power BI	Primary dashboard tool: data modelling, DAX measures, and all visualisations
-Power Query (M Language)	Data transformation and cleaning within Power BI
-DAX (Data Analysis Expressions)	Calculated measures: fraud rate, total label,  amount bucket, Hotspot_flag, time group
-Microsoft Excel	Used for initial data inspection, source file formatting, and exploratory checks before loading into Power BI
+1. Microsoft Power BI	Primary dashboard tool: data modelling, DAX measures, and all visualisations
+   
+2. Power Query (M Language)	Data transformation and cleaning within Power BI
+   
+3.DAX (Data Analysis Expressions)	Calculated measures: fraud rate, total label,  amount bucket, Hotspot_flag, time group
+
+4.Microsoft Excel	Used for initial data inspection, source file formatting, and exploratory checks before loading into Power BI
 
 ---
 ## Project Structure
