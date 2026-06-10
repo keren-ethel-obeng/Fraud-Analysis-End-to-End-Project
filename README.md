@@ -1,11 +1,11 @@
 # Fraud-Analysis-End-to-End-Project
 End to End Dummy Project
 ## Project Overview
-This Project Analyzes Fraud  Rate On Transactions ,The Device Used And The Geographical Locations Of Affected Individuals. This Project Includes Data Cleaning,Exploratory Data Analaysis(EDA),Data Modelling And Data Visualisation.
+This project analyzes transactional data from **January 2023 to January 2025** to identify patterns, risk factors, and concentrations of fraudulent activity across customer demographics, geographic locations, device channels, transaction types, and time periods, to inform targeted fraud prevention strategies. This Project Includes Data Cleaning,Exploratory Data Analaysis(EDA),Data Modelling And Data Visualisation.
 
 ---
 ## Objectives
-1. 1. Measure the overall scale and rate of fraud. To determine the total volume and monetary value of transactions, and calculate the overall fraud rate, to establish a baseline against which all other findings can be benchmarked.
+1. Measure the overall scale and rate of fraud. To determine the total volume and monetary value of transactions, and calculate the overall fraud rate, to establish a baseline against which all other findings can be benchmarked.
 2. Identify which demographic groups are most vulnerable to fraud. To examine fraud rates across different age groups and gender categories to determine whether certain segments of the customer base face disproportionately higher fraud exposure, and to understand where protective interventions may be most urgently needed.
 3. Assess geographic and branch-level fraud concentration. To compare fraud rates across states and branch locations to identify whether fraud is evenly distributed or concentrated in specific regions, and to determine whether branch-level operational factors may be contributing to elevated risk.
 4. Determine which transaction types carry the highest fraud risk. To investigate the distribution of fraud across transaction categories, including wire transfers, ATM withdrawals, peer transfers, and foreign transactions, to identify which channels are most frequently exploited and warrant the strongest controls.
@@ -37,15 +37,25 @@ Insight 4: Mobile is the primary attack surface. With 548 fraud cases, Mobile Ap
 Insight 5: Fraud happens around the clock. The near-uniform spread across time periods (19.30%–21.18%) directly challenges the common assumption that fraud peaks at night or during off-hours. This finding has significant operational implications; it means 24/7 monitoring is genuinely necessary and that any fraud detection system that relaxes alerting thresholds during business hours is miscalibrated.
 Insight 6: January 2025 represents a potential emerging threat. After a sustained decline through 2024, from approximately 3.8% at the start of 2023 to a low of 2.5% in August 2024, the rate spiked sharply to 4.0% in January 2025. This reversal after a prolonged downward trend is a red flag. It may indicate a new organised fraud campaign, exploitation of a newly discovered vulnerability, or a seasonal pattern (January post-holiday period) that warrants immediate forensic investigation.
 ## Visualization
-![Dasboard]("C:\Users\Vida Ethel Obeng\OneDrive\Pictures\Screenshots\Screenshot 2026-06-05 130530.png")
+![Dasboard]<img width="1346" height="746" alt="Screenshot 2026-06-05 130530" src="https://github.com/user-attachments/assets/d22b5c5d-b2f6-42e4-9260-fba3d826c34d" />
+
 
 ## Recommendations
-Recommendation 1:Senior customer protection programme. Given the 6.75% fraud rate among 65+ customers, a dedicated protection programme is the most urgent priority. This should include step-up authentication for high-risk transaction types, proactive outbound fraud education, simplified fraud reporting pathways, and optional account activity alerts via SMS or phone call rather than app notifications.
-Recommendation 2: Branch-level risk audit for the top 5 locations, Salem, Nampa, Miami, Spokane, and Honolulu, all require immediate operational audits examining staff training, internal controls, physical security, third-party integrations, and local transaction patterns. Where clusters of fraud cases share characteristics (same agent, same time window, same product type), this may indicate internal fraud or organised external targeting that requires escalation beyond standard fraud operations.
-Recommendation 3: Enhanced controls on Wire Transfers and Foreign Transactions. Specific controls to implement include: mandatory dual-authorisation for wire transfers above a defined threshold, a mandatory review delay (e.g. 24 hours) for first-time foreign transaction recipients, velocity checks to flag multiple wire transfers within a short window, and real-time customer confirmation via secondary channel before processing.
-Recommendation 4: Mobile App security investment. With 41% of fraud occurring on mobile, investment in mobile-specific controls will have the highest return on security spend. Priority measures include: biometric authentication as default, device fingerprinting and binding, in-app behavioural anomaly detection, and mandatory re-authentication for any transaction above a set value threshold.
-Recommendation 5: 24/7 fraud monitoring model. The uniform distribution of fraud across all times of day requires a genuine round-the-clock monitoring operation with consistent alert thresholds at all hours, not reduced overnight staffing or relaxed daytime detection rules. Automated real-time alerting systems should be calibrated to treat all time periods equally.
-Recommendation 6: Immediate forensic review of January 2025 spike. A focused investigation should be launched covering all January 2025 fraud cases to identify common characteristics, transaction type, branch, device, customer segment, and geographic pattern. The goal is to determine within 30 days whether the spike represents a new systematic threat requiring a policy response or a statistical anomaly requiring a data quality review.
+1.Senior customer protection programme. Given the 6.75% fraud rate among 65+ customers, a dedicated protection programme is the most urgent priority. This should include step-up authentication for high-risk transaction types, proactive outbound fraud education, simplified fraud reporting pathways, and optional account activity alerts via SMS or phone call rather than app notifications.
+
+2. Branch-level risk audit for the top 5 locations, Salem, Nampa, Miami, Spokane, and Honolulu, all require immediate operational audits examining staff training, internal controls, physical security, third-party integrations, and local transaction patterns. Where clusters of fraud cases share characteristics (same agent, same time window, same product type), this may indicate internal fraud or organised external targeting that requires escalation beyond standard fraud operations.
+
+3. Enhanced controls on Wire Transfers and Foreign Transactions. Specific controls to implement include: mandatory dual-authorisation for wire transfers above a defined threshold, a mandatory review delay (e.g. 24 hours) for first-time foreign transaction recipients, velocity checks to flag multiple wire transfers within a short window, and real-time customer confirmation via secondary channel before processing.
+   
+4. Mobile App security investment. With 41% of fraud occurring on mobile, investment in mobile-specific controls will have the highest return on security spend. Priority measures include: biometric authentication as default, device fingerprinting and binding, in-app behavioural anomaly detection, and mandatory re-authentication for any transaction above a set value threshold.
+
+5. 24/7 fraud monitoring model. The uniform distribution of fraud across all times of day requires a genuine round-the-clock monitoring operation with consistent alert thresholds at all hours, not reduced overnight staffing or relaxed daytime detection rules. Automated real-time alerting systems should be calibrated to treat all time periods equally.
+   
+6. Immediate forensic review of January 2025 spike. A focused investigation should be launched covering all January 2025 fraud cases to identify common characteristics, transaction type, branch, device, customer segment, and geographic pattern. The goal is to determine within 30 days whether the spike represents a new systematic threat requiring a policy response or a statistical anomaly requiring a data quality review.
+
+Author: \[Keren Ethel Obeng]
+ Contact: \[(email:kerenetheloebeng@gmail.com)]
+ [LinkedIn](www.linkedin.com/in/keren-obeng | [Portfolio](github.com/keren-ethel-obeng)
 
 
 
